@@ -32,7 +32,7 @@ namespace FirstDotNet
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello MinGyu!");
+                    await context.Response.WriteAsync("Hello Test01!");
                 });
             });
         }
